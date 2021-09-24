@@ -1,0 +1,440 @@
+/**************************** Class Tag ****************************/
+.top-container {
+  padding-top: 16%;
+  padding-bottom: 20%;
+  width: 100%;
+  height: 100%;
+  background-color: #142850;
+}
+
+.middle-container {
+  background-color: #27496D;
+}
+
+.profile {
+  margin: 20px 20% auto 20%;
+}
+
+.profile-photo {
+  width: 20%;
+}
+
+.education {
+  background-color: #27496D;
+}
+
+.programming-language{
+  margin-bottom: 100px;
+}
+
+.mySkills{
+  padding-top: 8rem;
+  height: 30rem;
+  background-color: #27496D;
+  margin-bottom: 100px;
+}
+
+
+.mySkillsRow{
+  width:20%;
+  height:20%;
+}
+
+.my-skill-row{
+  line-height: 2;
+  margin: 1% 25% 0px 19%;
+  width: 60%;
+  text-align: center;
+}
+
+.my-skill-two-row{
+  line-height: 2;
+  margin: 5% 24.19rem 5rem 28.19rem;
+  width: 60%;
+  text-align: left;
+}
+
+.div-table {
+  display: table;
+  width: auto;
+  background-color: #eee;
+  border: 1px solid #666666;
+  border-spacing: 5px; /* cellspacing:poor IE support for  this */
+}
+.div-table-row {
+  display: table-row;
+  width: auto;
+  clear: both;
+}
+.div-table-col {
+  float: left; /* fix for  buggy browsers */
+  display: table-column;
+  width: 200px;
+  background-color: #ccc;
+}
+
+.bottom-container{
+  background-color:#27496D;
+}
+
+
+
+
+
+
+
+.bio-p {
+  margin-block-start: 0em;
+  color: red;
+  line-height: 2;
+  color: #40514E;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 50px auto 120px auto;
+  width: 60%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.education-skill-row {
+  line-height: 2;
+  margin: auto 25% auto 19%;
+  width: 60%;
+  text-align: center;
+}
+
+.experience-skill-row {
+  line-height: 2;
+  margin: 50px auto 150px auto;
+  width: 60%;
+  text-align: left;
+}
+
+.skillImage-one {
+  float: left;
+  width: 20%;
+  margin-right: 30px;
+}
+
+.skillImage-two {
+  float: right;
+  width: 20%;
+  margin-left: 30px;
+}
+
+.skillImage-three {
+  float: left;
+  width: 17%;
+  margin-right: 30px;
+}
+
+.skillImage-four {
+  width: 17%;
+  margin-left: 30px;
+  float: right;
+}
+
+.school-class-one {
+  width: 30%;
+}
+
+.school-class-two {
+  width: 10%;
+}
+
+.tr-one {
+  color: #222831;
+  font-size: 20px;
+}
+
+.tr-color {
+  color: white;
+}
+
+.imgCloudOne {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  position: relative;
+  left: 450px;
+}
+
+.imgCloudTwo {
+  position: absolute;
+  left: 350px;
+  width: 4rem;
+  height: 4rem;
+}
+
+.hr-set {
+  color: #949c9c;
+  margin-top: 50px;
+  width: 10%;
+  border-radius: 120px;
+  border-top: double none double none;
+}
+
+.container {
+  width: 10rem;
+  background-color: red;
+  margin: 20px 50px auto 50px;
+  border-radius: 120px;
+}
+
+.mobile-p {
+  color: white;
+  margin-left: 50px;
+  text-align: left;
+  width: 40em;
+}
+
+.mad {
+  height: 0.4rem;
+  border-radius: 120px;
+  background-color: white;
+  width: 80%;
+  animation-name: mad-animation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+.web-development {
+  height: 0.4rem;
+  border-radius: 120px;
+  background-color: white;
+  width: 70%;
+  animation-name: web-animation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+.game-development {
+  height: 0.4rem;
+  border-radius: 120px;
+  background-color: white;
+  width: 70%;
+  animation-name: game-animation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+.data-science {
+  height: 0.4rem;
+  border-radius: 120px;
+  background-color: white;
+  width: 60%;
+  animation-name: data-animation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+.data-structure {
+  height: 0.4rem;
+  border-radius: 120px;
+  background-color: white;
+  width: 65%;
+  animation-name: dataStructure-animation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+.database {
+  height: 0.4rem;
+  border-radius: 120px;
+  background-color: white;
+  width: 65%;
+  animation-name: database-animation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+
+.c-lang{
+  text-align: center;
+}
+
+.c-img{
+  height: 11.5rem;
+  border:solid 10px;
+  border-radius: 180px;
+  background-color: white;
+  border-color: white;
+
+}
+
+.cplus-img{
+  width: 10rem;
+  border:solid 10px;
+  border-radius: 180px;
+  background-color: black;
+  border-color: black;
+}
+
+.cplus-two-img{
+  width: 10rem;
+  border:solid 10px;
+  border-radius: 180px;
+  background-color: black;
+  border-color: black;
+}
+
+.h-three{
+
+  border-right-color: red;
+  border-left-color: red;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+.contact-me{
+  background-color:#27496D;
+}
+
+.btn{
+   text-decoration:none;
+   border: 1;
+   line-height: 5;
+   padding: 0 20px;
+   font-size: 1rem;
+   text-align: center;
+   color: #66BFBF;
+   text-shadow: 1px 1px 1px #000;
+   border-radius: 10px;
+   background-color: white;
+   background-image: linear-gradient(to top left,
+                                     rgba(0, 0, 0, .2),
+                                     rgba(0, 0, 0, .2) 30%,
+                                     rgba(0, 0, 0, 0));
+   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+               inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.contact-photo{
+  width: 2rem;
+}
+
+
+.mS{
+  display: inline-table;
+}
+.mX{
+  display: inline-table;
+  margin-left: 70px;
+}
+
+/**************************** Key Frames ****************************/
+@keyframes mad-animation {
+  from {
+    width: 0%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 80%;
+  }
+}
+
+@keyframes web-animation {
+  from {
+    width: 0%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 70%;
+  }
+}
+
+@keyframes data-animation {
+  from {
+    width: 0%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 65%;
+  }
+}
+
+@keyframes game-animation {
+  from {
+    width: 0%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 70%;
+  }
+}
+
+@keyframes dataStructure-animation {
+  from {
+    width: 0%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 65%;
+  }
+}
+
+@keyframes database-animation {
+  from {
+    width: 0%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 65%;
+  }
+}
+
+
+
+/* Green */
+/**************************** Inline Tag ****************************/
+html{
+  margin-bottom: 0px;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+
+table {
+
+}
+
+
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.62rem;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  margin-block-start: 1.2em;
+  margin-block-end: 1.5em;
+  color: #66BFBF;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #112031;
+  font-family: 'IM Fell English', serif;
+}
+
+hr {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
