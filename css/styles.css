@@ -24,63 +24,16 @@
 }
 
 .programming-language{
-  margin-bottom: 100px;
+  margin-bottom: 1.2rem;
+  margin-right:5.4rem;
 }
 
 .mySkills{
-  padding-top: 8rem;
-  height: 30rem;
+  padding-top: 1.2rem;
+
   background-color: #27496D;
   margin-bottom: 100px;
 }
-
-
-.mySkillsRow{
-  width:20%;
-  height:20%;
-}
-
-.my-skill-row{
-  line-height: 2;
-  margin: 1% 25% 0px 19%;
-  width: 60%;
-  text-align: center;
-}
-
-.my-skill-two-row{
-  line-height: 2;
-  margin: 5% 24.19rem 5rem 28.19rem;
-  width: 60%;
-  text-align: left;
-}
-
-.div-table {
-  display: table;
-  width: auto;
-  background-color: #eee;
-  border: 1px solid #666666;
-  border-spacing: 5px; /* cellspacing:poor IE support for  this */
-}
-.div-table-row {
-  display: table-row;
-  width: auto;
-  clear: both;
-}
-.div-table-col {
-  float: left; /* fix for  buggy browsers */
-  display: table-column;
-  width: 200px;
-  background-color: #ccc;
-}
-
-.bottom-container{
-  background-color:#27496D;
-}
-
-
-
-
-
 
 
 .bio-p {
@@ -99,17 +52,9 @@
 }
 
 .education-skill-row {
-  line-height: 2;
-  margin: auto 24.93rem auto 23.06rem;
-  width: 60%;
-  text-align: center;
-}
 
-.experience-skill-row {
-  line-height: 2;
-  margin: 50px auto 150px auto;
-  width: 60%;
-  text-align: left;
+  width: 100%;
+  height: 100%;
 }
 
 .skillImage-one {
@@ -137,43 +82,17 @@
 }
 
 .school-class-one {
-  width: 30%;
-}
-
-.school-class-two {
-  width: 10%;
-}
-
-.tr-one {
-  color: #222831;
-  font-size: 20px;
+  width: 20%;
 }
 
 .tr-color {
   color: white;
+
 }
 
-.imgCloudOne {
-  display: inline-block;
-  width: 4rem;
-  height: 4rem;
-  position: relative;
-  left: 450px;
-}
-
-.imgCloudTwo {
-  position: absolute;
-  left: 350px;
-  width: 4rem;
-  height: 4rem;
-}
-
-.hr-set {
-  color: #949c9c;
-  margin-top: 50px;
-  width: 10%;
-  border-radius: 120px;
-  border-top: double none double none;
+.table-class{
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .container {
@@ -183,12 +102,6 @@
   border-radius: 120px;
 }
 
-.mobile-p {
-  color: white;
-  margin-left: 50px;
-  text-align: left;
-  width: 40em;
-}
 
 .mad {
   height: 0.4rem;
@@ -255,22 +168,6 @@
   text-align: center;
 }
 
-.c-img{
-  height: 11.5rem;
-  border:solid 10px;
-  border-radius: 180px;
-  background-color: white;
-  border-color: white;
-
-}
-
-.cplus-img{
-  width: 10rem;
-  border:solid 10px;
-  border-radius: 180px;
-  background-color: black;
-  border-color: black;
-}
 
 .cplus-two-img{
   width: 10rem;
@@ -316,10 +213,11 @@
   width: 2rem;
 }
 
-
 .mS{
   display: inline-table;
+  margin-bottom:2rem;
 }
+
 .mX{
   display: inline-table;
   margin-left: 70px;
@@ -327,6 +225,12 @@
 
 .p-colour{
   color: white;
+}
+
+.h2-class{
+  margin-left: 5rem;
+  color: #66BFBF;
+  font-size: 2.5rem;
 }
 
 /**************************** Key Frames ****************************/
@@ -396,9 +300,13 @@
   }
 }
 
+@media (max-width: 767px) {
+  td {
+    width: 100% !important;
+  }
+}
 
 
-/* Green */
 /**************************** Inline Tag ****************************/
 html{
   margin-bottom: 0px;
@@ -413,12 +321,6 @@ body {
 }
 
 
-table {
-
-}
-
-
-
 h1 {
   color: #66BFBF;
   font-size: 5.62rem;
@@ -428,7 +330,7 @@ h1 {
 
 h2 {
   margin-block-start: 1.2em;
-  margin-block-end: 1.5em;
+  margin-block-end: 1.1em;
   color: #66BFBF;
   font-size: 2.5rem;
 }
